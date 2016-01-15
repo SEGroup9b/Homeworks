@@ -1,0 +1,107 @@
+#searchBar {
+  margin: 15px 10px;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.add-form {
+  /*border-top: 2px solid #919191;*/
+  border-bottom: 2px solid #919191;
+  padding: 5px;
+  margin: 15px 0px 20px 0px;
+  height: 245px;
+}
+
+.add-group {
+	margin: 10px 0px 10px 30px;
+}
+
+.add-item {
+	margin: 5px 0px;
+}
+
+/*
+  ========================================
+  Tables
+  ========================================
+*/
+
+.tableWrapper {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.table-scrolling {
+  max-height: 400px;
+  overflow: auto;
+  border-bottom: 2px solid #919191;
+}
+
+.my-table {
+	border-bottom: 2px solid #919191;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  background: rgba(200, 200, 200, .3);
+}
+
+.btn-default {
+  border: 1px solid #dfe2e5;
+  padding: 5px 20px;
+  margin: 5px 5px;
+  position: relative;
+  left: 380px;
+  bottom: 65px;
+  font-size: 17px;
+}
+
+#btn-remove {
+	font-size: 12px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+.myheaders {
+	font-size: 17px;
+	border-left: 3px solid #3D3C3B;
+}
+
+#codeheader {
+	width: 60px;
+	padding-left: 4px;
+	text-align: left;
+}
+#nameheader {
+	padding-left: 6px;
+	text-align: left;
+}
+
+#newListing {
+	margin: 5px 0px 0px 5px; 
+}
+
+#details {
+	font-size: 15px;
+}
+
+#details-info {
+	margin-left: 25px;
+}
