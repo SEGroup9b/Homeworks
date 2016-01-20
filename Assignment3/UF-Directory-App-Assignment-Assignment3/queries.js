@@ -29,8 +29,8 @@ var removeCable = function() {
   // find and remove what we're looking for
   Listing.findOneAndRemove( { code: 'CABL' }, function( err, listing ) {
     if ( err ) throw err;
-    if( listing == null ) console.log( 'No CABL listings found.' );
-    else console.log( '\nCABL listing has been removed' );
+    if( listing == null ) console.log( '\nNo CABL listings found.\n' );
+    else console.log( '\nCABL listing has been removed\n' + listing );
   });
 };
 var updatePhelpsMemorial = function() {
@@ -38,7 +38,7 @@ var updatePhelpsMemorial = function() {
     Phelps Memorial Hospital Center's address is incorrect. Find the listing, update it, and then 
     log the updated document to the console. 
    */
-   Listing.findOneAndUpdate( {name: 'Phelps Laboratory'}, { $set: {address: '404 Bad Error Rd, System Error, OS 14159, United States'}}, function( err, listing ) {
+   Listing.findOneAndUpdate( {name: 'Phelps Laboratory'}, { $set: {address: 'New Address'}}, function( err, listing ) {
     if( err ) throw err; 
     //return updated user
     console.log( listing );
